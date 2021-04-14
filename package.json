@@ -1,0 +1,25 @@
+{
+  "name": "qmb-system-instruction-relay-activation-remote",
+  "version": "1.0.0",
+  "description": "System instruction relay activation remote",
+  "main": "relay_activation_remote.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modulesQuimera/qmb-system-instruction-relay-activation-remote.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/modulesQuimera/qmb-system-instruction-relay-activation-remote/issues"
+  },
+  "homepage": "https://github.com/modulesQuimera/qmb-system-instruction-relay-activation-remote#readme",
+  "node-red" : {
+    "nodes": {
+        "relay_activation_remote": "relay_activation_remote.js"
+    }  
+  }
+}
