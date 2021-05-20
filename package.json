@@ -1,6 +1,6 @@
 {
   "name": "qmb-system-instruction-relay-activation-remote",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "System instruction relay activation remote",
   "main": "relay_activation_remote.js",
   "scripts": {

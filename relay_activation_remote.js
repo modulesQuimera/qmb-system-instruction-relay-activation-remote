@@ -16,9 +16,9 @@ module.exports = function(RED) {
                 action: "relay_activation_remote",
                 payload: {
                     attributes: [
-                        { source_value:  parseInt(node.source_value) },
-                        { edge_open: node.edge_open === "true" ? true : false },
-                        { edge_close: node.edge_close === "true" ? true : false }
+                        { name: "source_value", value: parseInt(node.source_value) },
+                        { name: "edge_open", value: node.edge_open === "true" ? true : false },
+                        { name: "edge_close", value: node.edge_close === "true" ? true : false }
                     ],
                 }
             };
